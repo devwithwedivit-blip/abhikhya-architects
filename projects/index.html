@@ -121,6 +121,58 @@
           gap: 28px;
         }
       }
+    
+/* Abhikhya Interactive Logo Visibility Rules */
+.w-\[155px\] {
+  width: 155px !important;
+  min-width: 155px !important;
+}
+#btn-logo, .site-logo-link {
+  width: 155px !important;
+  min-width: 155px !important;
+  height: 24px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  flex-shrink: 0 !important;
+}
+#abhikhya-interactive-logo {
+  width: 152px !important;
+  min-width: 152px !important;
+  height: 24px !important;
+  max-height: 24px !important;
+  display: block !important;
+  overflow: visible !important;
+}
+div:has(> #btn-logo),
+div.overflow-hidden:has(#btn-logo),
+div.overflow-hidden:has(#abhikhya-interactive-logo),
+.overflow-hidden {
+  min-width: 155px !important;
+  overflow: visible !important;
+}
+@media (max-width: 639px) {
+  .w-\[155px\] {
+    width: 120px !important;
+    min-width: 120px !important;
+  }
+  #btn-logo, .site-logo-link {
+    width: 120px !important;
+    min-width: 120px !important;
+    height: 20px !important;
+  }
+  #abhikhya-interactive-logo {
+    width: 120px !important;
+    min-width: 120px !important;
+    height: 20px !important;
+  }
+  div:has(> #btn-logo),
+  div.overflow-hidden:has(#btn-logo),
+  div.overflow-hidden:has(#abhikhya-interactive-logo),
+  .overflow-hidden {
+    min-width: 120px !important;
+  }
+}
+
     </style>
 
     <style id="site-header-css">
@@ -158,6 +210,8 @@
         flex-shrink: 0;
         text-decoration: none;
         line-height: 1;
+        width: 140px;
+        height: 24px;
       }
       .site-nav {
         display: flex;
@@ -233,7 +287,7 @@
     <header class="site-header">
         <div class="site-header-inner">
             <a aria-label="Abhikhya Design Studio Logo" class="site-logo-link group" href="/">
-                <svg id="abhikhya-interactive-logo" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 sm:h-6 w-auto transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;height:20px;max-height:24px;width:auto;">
+                <svg id="abhikhya-interactive-logo" width="140" height="22" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;width:140px;height:22px;">
                     <style>
                         #abhikhya-interactive-logo .logo-emblem {
                             transform-origin: 10px 12px;
