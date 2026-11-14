@@ -34,14 +34,10 @@ img, picture, video, canvas, svg {
   height: 24px !important;
   max-height: 24px !important;
   display: block !important;
-  overflow: visible !important;
 }
 div:has(> #btn-logo),
-div.overflow-hidden:has(#btn-logo),
-div.overflow-hidden:has(#abhikhya-interactive-logo),
-.overflow-hidden {
+div:has(> div > #btn-logo) {
   min-width: 155px !important;
-  overflow: visible !important;
 }
 @media (max-width: 639px) {
   .w-\[155px\] {
@@ -59,9 +55,7 @@ div.overflow-hidden:has(#abhikhya-interactive-logo),
     height: 20px !important;
   }
   div:has(> #btn-logo),
-  div.overflow-hidden:has(#btn-logo),
-  div.overflow-hidden:has(#abhikhya-interactive-logo),
-  .overflow-hidden {
+  div:has(> div > #btn-logo) {
     min-width: 120px !important;
   }
 }
