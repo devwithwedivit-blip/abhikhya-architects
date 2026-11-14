@@ -1,0 +1,1251 @@
+{
+  "pageProps": {
+    "aboutSection": {
+      "cta": {
+        "href": "#about",
+        "label": "About Abhikhya"
+      },
+      "description": "Abhikhya Design Studio is a multidisciplinary design firm offering premium architecture, interior design, and turnkey solutions across India. From sketch to final reveal, every corner reflects you, mixing practical, smart design with wow moments.",
+      "image": {
+        "asset": {
+          "metadata": {
+            "dimensions": {
+              "aspectRatio": 1.33,
+              "height": 1086,
+              "width": 1448
+            },
+            "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+          },
+          "url": "/images/about/about-studio.webp"
+        }
+      },
+      "title": "Let Us Design Your Space"
+    },
+    "featuredProjectsGallery": {
+      "cta": {
+        "href": "/projects",
+        "label": "Explore All Projects"
+      },
+      "title": "Projects",
+      "project1": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2024"
+          },
+          "details": [
+            {
+              "_key": "det_harsh-gujral-residence",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_harsh-gujral-residence",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Our celebrated luxury home project designed for India's top standup comedian, Mr. Harsh Gujral. Blending bespoke elegance, custom mood lighting, rich wood craftsmanship, and functional artistry."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-1-harsh-gujral-residence.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Greater Noida, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "harsh-gujral-residence"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Harsh Gujral Residence",
+          "typology": "Celebrity Residence"
+        }
+      },
+      "project2": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2025"
+          },
+          "details": [
+            {
+              "_key": "det_modern-villa-elevation-design",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_modern-villa-elevation-design",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Sculptural contemporary residential elevation showcasing geometric form, expansive full-height glazing, dynamic cantilevered canopies, and seamless transition between indoor and outdoor spaces."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-2-elevation-villa-design.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Greater Noida West, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "modern-villa-elevation-design"
+          },
+          "status": "Under Construction",
+          "teamCredits": null,
+          "title": "Modern Villa Elevation Design",
+          "typology": "Elevation & Architecture"
+        }
+      },
+      "project3": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2024"
+          },
+          "details": [
+            {
+              "_key": "det_contemporary-luxury-living-dining",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_contemporary-luxury-living-dining",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Harmonious open-concept living and dining area featuring bespoke fluted wall paneling, Italian marble flooring, curated modern furnishings, and layered ambient lighting."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-3-luxury-living-room.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Noida, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "contemporary-luxury-living-dining"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Contemporary Luxury Living & Dining",
+          "typology": "Residential Interior"
+        }
+      },
+      "project4": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2024",
+            "endYear": "2025"
+          },
+          "details": [
+            {
+              "_key": "det_bespoke-master-suite-retreat",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_bespoke-master-suite-retreat",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "A peaceful sanctuary combining warm timber paneling, concealed atmospheric cove illumination, integrated walk-in wardrobe, and minimalist ensuite detailing."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-4-contemporary-master-suite.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Greater Noida, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "bespoke-master-suite-retreat"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Bespoke Master Suite & Retreat",
+          "typology": "Residential Interior"
+        }
+      },
+      "project5": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2024",
+            "endYear": "2024"
+          },
+          "details": [
+            {
+              "_key": "det_curated-kids-bedroom-study",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_curated-kids-bedroom-study",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Playful yet functional children's bedroom design featuring custom ergonomic study desks, vibrant geometric storage niches, and durable, tactile finishes."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-5-kids-bedroom-interior.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Noida Sector 150, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "curated-kids-bedroom-study"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Curated Kids Bedroom & Study",
+          "typology": "Residential Interior"
+        }
+      },
+      "project6": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2024"
+          },
+          "details": [
+            {
+              "_key": "det_guest-lounge-common-living",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_guest-lounge-common-living",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Welcoming lounge space designed for hosting and relaxation, featuring plush sectional seating, accent marble consoles, and panoramic garden views."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-6-guest-lounge-common-area.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Delhi NCR, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "guest-lounge-common-living"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Guest Lounge & Common Living",
+          "typology": "Residential Interior"
+        }
+      },
+      "project7": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2025"
+          },
+          "details": [
+            {
+              "_key": "det_corporate-headquarters-innovation-hub",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_corporate-headquarters-innovation-hub",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Dynamic corporate workspace combining collaborative open workstations, sound-insulated meeting pods, biophilic plant installations, and energy-efficient lighting."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-7-corporate-headquarters.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Noida Sector 62, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "corporate-headquarters-innovation-hub"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Corporate Headquarters & Innovation Hub",
+          "typology": "Office & Commercial"
+        }
+      },
+      "project8": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2024",
+            "endYear": "2025"
+          },
+          "details": [
+            {
+              "_key": "det_executive-cabin-boardroom-suite",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_executive-cabin-boardroom-suite",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Commanding executive suite and conference facility highlighting acoustic wood slat walls, bespoke quartz conference table, integrated AV tech, and ergonomic leather seating."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-8-executive-cabin-workspace.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Gurgaon Cyber City, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "executive-cabin-boardroom-suite"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Executive Cabin & Boardroom Suite",
+          "typology": "Office Design"
+        }
+      },
+      "project9": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2024"
+          },
+          "details": [
+            {
+              "_key": "det_flagship-retail-store-experience-center",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_flagship-retail-store-experience-center",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Immersive experiential retail showroom with modular display islands, focused perimeter track lighting, and fluid customer journey zoning."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-9-flagship-retail-store.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Indirapuram, Ghaziabad, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "flagship-retail-store-experience-center"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Flagship Retail Store & Experience Center",
+          "typology": "Retail & Commercial"
+        }
+      },
+      "project10": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2024",
+            "endYear": "2024"
+          },
+          "details": [
+            {
+              "_key": "det_boutique-salon-wellness-spa",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_boutique-salon-wellness-spa",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Serene luxury wellness sanctuary with organic curved arches, warm terracotta tones, fluted glass partitions, and specialized task illumination."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-10-boutique-salon-spa.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Greater Noida, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "boutique-salon-wellness-spa"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Boutique Salon & Wellness Spa",
+          "typology": "Retail & Hospitality"
+        }
+      },
+      "project11": {
+        "customImage": null,
+        "defaultImage": true,
+        "project": {
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2025"
+          },
+          "details": [
+            {
+              "_key": "det_grand-banquet-event-hospitality",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "span_grand-banquet-event-hospitality",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "Magnificent celebration banquet hall featuring column-free grand spans, theatrical parametric ceiling lights, soundproof operable acoustic partitions, and majestic foyer entrance."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/projects/project-11-grand-banquet-hospitality.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Ghaziabad, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "grand-banquet-event-hospitality"
+          },
+          "status": "Completed",
+          "teamCredits": null,
+          "title": "Grand Banquet & Event Hospitality",
+          "typology": "Hospitality"
+        }
+      }
+    },
+    "heroFeaturedUpdates": [
+      {
+        "contentType": true,
+        "title": "Harsh Gujral Residence: From Sketch to Final Reveal",
+        "update": {
+          "_type": "article",
+          "articleTypology": {
+            "name": "Celebrity Project"
+          },
+          "category": "Residential",
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2024"
+          },
+          "details": "Our first celebrity home project for India's top standup comedian, Mr. Harsh Gujral. Bespoke luxury architecture and interiors seamlessly executed.",
+          "featuredImage": null,
+          "image": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 0.707,
+                  "height": 1148,
+                  "width": 812
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAYAAADrhAWVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVR4nGNkYGD4z8DAwMAABExgDBb4z4APMDMwMLAwMTIAAK7kCQO4Y8JkAAAAAElFTkSuQmCC"
+              },
+              "url": "/images/hero/hero-1-harsh-gujral.webp"
+            }
+          },
+          "slug": {
+            "current": "harsh-gujral-residence"
+          },
+          "title": "Harsh Gujral Residence"
+        }
+      },
+      {
+        "contentType": true,
+        "title": "Most Promising & Futuristic Architecture Firm of the Year 2024",
+        "update": {
+          "_type": "article",
+          "articleTypology": {
+            "name": "Awards"
+          },
+          "category": "Studio Award",
+          "dates": {
+            "startYear": "2024",
+            "endYear": "2024"
+          },
+          "details": "Recognized across North India as the Most Promising & Futuristic Architecture & Interior Design Firm of the Year 2024.",
+          "featuredImage": null,
+          "image": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 2.02,
+                  "height": 721,
+                  "width": 1457
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAACCAYAAACQgozbAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAG0lEQVR4nGNkYGD4z8DAwMCABJjAGBkhgBEAANv/AgV/4D+GAAAAAElFTkSuQmCC"
+              },
+              "url": "/images/hero/hero-2-award-studio.webp"
+            }
+          },
+          "slug": {
+            "current": "firm-of-the-year-2024"
+          },
+          "title": "Firm of the Year 2024"
+        }
+      },
+      {
+        "contentType": true,
+        "title": "Recognized in '30 Under 30 Rising & Creative Architects' 2024",
+        "update": {
+          "_type": "article",
+          "articleTypology": {
+            "name": "Recognition"
+          },
+          "category": "Studio Honors",
+          "dates": {
+            "startYear": "2024",
+            "endYear": "2024"
+          },
+          "details": "Studio leadership recognized among the 30 Under 30 rising and creative architects & interior designers of the year in North India.",
+          "featuredImage": null,
+          "image": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 0.707,
+                  "height": 1148,
+                  "width": 812
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAYAAADrhAWVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVR4nGNkYGD4z8DAwMAABExgDBb4z4APMDMwMLAwMTIAAK7kCQO4Y8JkAAAAAElFTkSuQmCC"
+              },
+              "url": "/images/team/team-studio.webp"
+            }
+          },
+          "slug": {
+            "current": "30-under-30-architects"
+          },
+          "title": "30 Under 30 Architects"
+        }
+      },
+      {
+        "contentType": false,
+        "title": "Design & Build Turnkey: Seamless End-to-End Delivery",
+        "update": {
+          "_type": "project",
+          "articleTypology": null,
+          "category": "Turnkey",
+          "dates": {
+            "startYear": "2023",
+            "endYear": "2026"
+          },
+          "details": [
+            {
+              "_key": "abhikya_turnkey_1",
+              "_type": "block",
+              "children": [
+                {
+                  "_key": "abhikya_turnkey_span_1",
+                  "_type": "span",
+                  "marks": [],
+                  "text": "From blueprint to reality\u2014seamlessly executed under one roof. A complete, end-to-end solution from concept to on-site execution. We handle everything so you don't have to."
+                }
+              ],
+              "markDefs": [],
+              "style": "normal"
+            }
+          ],
+          "featuredImage": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.29,
+                  "height": 1103,
+                  "width": 1425
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/hero/hero-3-architecture.webp"
+            }
+          },
+          "imageGallery": null,
+          "location": {
+            "title": "Greater Noida & NCR, India"
+          },
+          "metadataTags": null,
+          "pdf": null,
+          "processGallery": null,
+          "slug": {
+            "current": "design-and-build-turnkey"
+          },
+          "teamCredits": null,
+          "title": "Design & Build Turnkey Showcase"
+        }
+      }
+    ],
+    "metadata": {
+      "metaTitle": "Abhikhya Design Studio | Best Architects & Interior Designer in Greater Noida",
+      "metaDescription": "Abhikhya Design Studio is a multidisciplinary design firm offering premium architecture, interior design, and turnkey solutions across India. Best Interior Designers in Greater Noida & Noida.",
+      "metaKeyWords": "Abhikhya Design Studio, Architecture, Interior Design, Turnkey Solutions, Residential Interior, Office Design, Greater Noida, Noida, Delhi NCR, Harsh Gujral Residence",
+      "thumbnail": {
+        "asset": {
+          "metadata": {
+            "dimensions": {
+              "aspectRatio": 1.77,
+              "height": 1103,
+              "width": 1425
+            },
+            "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAgSURBVBhXY/j///9/BhgAZjCCMUCYmBiYgYgJjGAEIwA8ZgoQ8b9z+QAAAABJRU5ErkJggg=="
+          },
+          "url": "/images/hero/hero-1-harsh-gujral.webp"
+        }
+      }
+    },
+    "servicesSection": {
+      "authorName": "Abhikhya Design Studio",
+      "authorRole": "Architecture & Interior Design",
+      "quote": "We commit to crafting high-quality, contextually harmonious structures that seamlessly transition between indoor and outdoor spaces, prioritizing utility and meaning.",
+      "services": {
+        "title": "Our Services",
+        "service1": {
+          "title": "Architecture & Layout Planning",
+          "description": "Elevation design, architectural layout planning, and sustainable structure design.",
+          "image": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.29,
+                  "height": 1103,
+                  "width": 1425
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/services/service-1-architecture.webp"
+            }
+          }
+        },
+        "service2": {
+          "title": "Interior Design & Turnkey",
+          "description": "Apartments, luxury bungalows, corporate offices, and retail spaces from concept to reveal.",
+          "image": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1086,
+                  "width": 1448
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/services/service-2-interior.webp"
+            }
+          }
+        },
+        "service3": {
+          "title": "Design Consultation & Build",
+          "description": "Personalized concepts rooted in your style, 3D layouts, and full-spectrum build execution.",
+          "image": {
+            "asset": {
+              "metadata": {
+                "dimensions": {
+                  "aspectRatio": 1.33,
+                  "height": 1085,
+                  "width": 1447
+                },
+                "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAECAYAAABGM/VAAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIUlEQVR4nGNgYGD4z8DAwMDIwAACTCACDMb/P/D5YABrEwX25+2wOQAAAABJRU5ErkJggg=="
+              },
+              "url": "/images/services/service-3-turnkey.webp"
+            }
+          }
+        }
+      }
+    },
+    "teamSection": {
+      "cta": {
+        "href": "#contact",
+        "label": "Get In Touch"
+      },
+      "description": "Recognized as '30 under 30 rising & creative architect & interior designer of the year 2024', our team of passionate architects, designers, and project managers craft high-quality, contextually harmonious spaces across Delhi NCR and India.",
+      "image": {
+        "asset": {
+          "metadata": {
+            "dimensions": {
+              "aspectRatio": 0.707,
+              "height": 1148,
+              "width": 812
+            },
+            "lqip": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAFCAYAAADrhAWVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAJElEQVR4nGNkYGD4z8DAwMAABExgDBb4z4APMDMwMLAwMTIAAK7kCQO4Y8JkAAAAAElFTkSuQmCC"
+          },
+          "url": "/images/team/team-studio.webp"
+        }
+      },
+      "title": "Award-Winning Studio & Team"
+    },
+    "_nextI18Next": {
+      "initialI18nStore": {
+        "en": {
+          "common": {
+            "header": {
+              "recent_updates": "Recent Highlights",
+              "work": "Projects",
+              "updates": "News & Awards",
+              "research": "Turnkey & Build",
+              "about_us": "About Us",
+              "contact": "Contact",
+              "close": "Close",
+              "team": "Our Team",
+              "careers": "Careers",
+              "see_all": "All Highlights",
+              "home": "Home",
+              "menu": "Menu",
+              "projects": "Projects",
+              "about": "Studio"
+            },
+            "footer": {
+              "privacy_policy": "Privacy Policy",
+              "terms_and_conditions": "Terms of Service",
+              "home": "Home",
+              "office": "Studio",
+              "contact_us": "Contact Us",
+              "updates": "Studio Highlights"
+            },
+            "offices": {
+              "title": "Get in Touch",
+              "directions": "Directions",
+              "enquiry": "Enquiries",
+              "media": "Media & Press",
+              "recruitment": "Careers",
+              "phone": "+91 - 7017971009 / 9717933182"
+            },
+            "privacy_policy": {
+              "title": "Privacy Policy"
+            },
+            "terms_of_service": {
+              "title": "Terms of Service"
+            },
+            "books": {
+              "title": "Studio Publications"
+            },
+            "philosophy": {
+              "title": "Utility & Meaning",
+              "subtitle": "Our Philosophy"
+            },
+            "aboutDetails": {
+              "title": "About Abhikhya Design Studio",
+              "subtitle": "Our Story & Vision"
+            },
+            "newsletter_error": "There was an error signing up to the newsletter. Please try again.",
+            "newsletter_success": "Thank you for signing up for our newsletter!",
+            "newsletter_terms": "By signing up, you consent to receive design updates from Abhikhya Design Studio and agree to our Privacy Policy.",
+            "newsletter_signup": "Sign Up",
+            "read_more": "Read More",
+            "read_less": "Read Less",
+            "process": "Process",
+            "specs": "Specs",
+            "team": "Team",
+            "gallery": "Gallery",
+            "close": "Close",
+            "buy_now": "Buy Now",
+            "project": "Project",
+            "award_institute": "Award, Institute",
+            "year": "Year",
+            "principals": "Principals",
+            "associates": "Associates",
+            "offices_title": "Offices",
+            "principal_partner": "Principal Partner",
+            "see_projects": "See Projects",
+            "more_projects": "More Projects",
+            "more": "More",
+            "all": "All",
+            "art": "Art",
+            "grid": "Grid",
+            "list": "List",
+            "filter": "Filter",
+            "learn_more": "Learn More",
+            "apply": "Apply",
+            "careers_jobs_posting": "Get notified when a new job gets posted",
+            "updates_title": "Studio Highlights",
+            "min_read": "min read",
+            "architecture": "Architecture",
+            "design": "Design",
+            "location": "Location",
+            "status": "Status",
+            "typology": "Typology",
+            "filters": "Filters",
+            "search": "Search",
+            "latest_updates": "Latest News",
+            "popular_searches": "Popular Searches",
+            "our_philosophy": "Our Philosophy",
+            "associate_partner": "Associate Partner",
+            "about_us": "About Us",
+            "about": "About",
+            "our_team": "Our Team",
+            "pdf": "PDF",
+            "view": "View",
+            "similar_articles": "Similar News",
+            "sort_by": "Sort by",
+            "newest": "Newest",
+            "oldest": "Oldest",
+            "a_to_z": "A-Z",
+            "z_to_a": "Z-A",
+            "order": "Order",
+            "share": "Share",
+            "view_all": "View All",
+            "no_results": "There are no results for your selection, try",
+            "clearing_filters": "clearing your filters",
+            "general_inquiries": "General Inquiries",
+            "media_inquiries": "Media Inquiries",
+            "careers": "Careers",
+            "general_inquiries_description": "All general information should be sent to our to the following email:",
+            "media_inquiries_description": "All press enquiries across offices should be sent to the following email:",
+            "careers_description": "Please only use our portal for job opportunities and openings:",
+            "job_openings": "Job Openings",
+            "back": "Back",
+            "no_jobs_available": "There are no roles open at this time.",
+            "principal_partners": "Principal Partner",
+            "associate_partners": "Associate Partner",
+            "design_partner": "Design Partner",
+            "project_leader": "Project Leader",
+            "project_manager": "Project Manager",
+            "design_team": "Design Team",
+            "client": "Client",
+            "architectural_design": "Architectural Design",
+            "heritage_renovation": "Heritage Renovation",
+            "executive_architect": "Executive Architect",
+            "construction_advisor": "Construction Advisor",
+            "steel_constructor": "Steel Constructor",
+            "cladding_constructor": "Cladding Constructor",
+            "lighting_consultant": "Lighting Consultant",
+            "installation_design": "Installation Design",
+            "installation_advisor": "Installation Advisor",
+            "building_physics_advisor": "Building Physics Advisor",
+            "facade_consultant_/_light_study": "Facade Consultant / Light Study",
+            "photographers": "Photographers",
+            "manufacturer": "Manufacturer",
+            "principle_partners": "Principle Partners",
+            "clients": "Clients",
+            "executive_architects": "Executive Architects",
+            "facade_consultant": "Fa\u00e7ade Consultant",
+            "landscape_consultant": "Landscape Consultant",
+            "interior_design_consultant": "Interior Design Consultant",
+            "signage_consultant": "Signage Consultant",
+            "traffic_consultant": "Traffic Consultant",
+            "construction_company": "Construction Company",
+            "curators": "Curators",
+            "curator": "Curator",
+            "curatorial": "Curatorial",
+            "research_and_film": "Research and Film",
+            "construction_and_installation_production": "Construction and Installation Production",
+            "printing": "Printing",
+            "model_production": "Model Production",
+            "lighting": "Lighting",
+            "curatorial_consultant_and_research_support": "Curatorial Consultant and Research Support",
+            "photography": "Photography",
+            "signage_design": "Signage Design",
+            "interior_design": "Interior Design",
+            "construction_contractor": "Construction Contractor",
+            "lead_architect": "Lead Architect",
+            "team_coordinator": "Team Coordinator",
+            "structure_engineers": "Structure Engineers",
+            "mep_consultant": "MEP Consultant",
+            "landscape_designer": "Landscape Designer",
+            "interior_designer": "Interior Designer",
+            "project_management": "Project Management",
+            "epc": "EPC",
+            "landscape_design_tea_field_courtyard": "Landscape Design (Tea Field + Courtyard)",
+            "landscape_design_site": "Landscape Design (Site)",
+            "acoustic_consultant": "Acoustic Consultant",
+            "theater_technical_consultant": "Theater Technical Consultant, Stage Technology and Conference System Design",
+            "lighting_consultant_overall": "Lighting Consultant (Overall + Theater)",
+            "lighting_consultant_conference": "Lighting Consultant (Conference + Podium)",
+            "associate_engineer": "Associate Engineer",
+            "project_leader_and_manager": "Project leader and project manager",
+            "executive_architecture_coordination_leed": "Executive architecture, engineeing, coordination and LEED",
+            "structural_mep_acoustics_leed": "Structural and MEP engineering, Acoustics, LEED",
+            "competition_team": "Competition Team",
+            "contractor": "Contractor",
+            "structural_consultant": "Structural Consultant",
+            "curtain_wall_consultant": "Curtain Wall Consultant",
+            "transportation_consultant": "Transportation Consultant",
+            "commercial_consultant": "Commercial Consultant",
+            "green_building_consultant": "Green Building Consultant",
+            "lid_consultant": "LID Consultant",
+            "bim_consultant": "BIM Consultant",
+            "partners": "Partners",
+            "engineering": "Engineering",
+            "light_design": "Light Design",
+            "motion_designer": "Motion Designer",
+            "fog_effect": "Fog Effect",
+            "assistant_curator": "Assistant Curator",
+            "spatial_design_collaborators": "Spatial Design and Curatorial Collaborators",
+            "artistic_lead": "Artistic Lead",
+            "exhibition_team": "Exhibition Team",
+            "graphic_concept_design": "Graphic Concept & Design",
+            "head_of_programme": "Head of Programme",
+            "production": "Production",
+            "technical_production": "Technical Production",
+            "communications": "Communications",
+            "technical_support": "Technical Support",
+            "co_learning": "Co-Learning",
+            "fundraising": "Fundraising",
+            "art_direction_advisor": "Art Direction Advisor",
+            "commissioned_work": "Commissioned Work",
+            "copy_editing": "Copy Editing",
+            "dutch_translation": "Dutch Translation",
+            "ai_developers": "AI-Developers",
+            "exhibition_construction": "Exhibition Construction",
+            "graphic_production": "Graphic Production",
+            "sponsors": "Sponsors",
+            "constructor": "Constructor",
+            "structural_engineer": "Structural Engineer",
+            "general_coordination": "General Coordination",
+            "urban_planner": "Urban Planner",
+            "local_architect": "Local Architect",
+            "structural_engineering": "Structural Engineering",
+            "chief_architect": "Chief Architect",
+            "landscape_architect": "Landscape Architect",
+            "lighting_design": "Lighting Design",
+            "ceiling_rd": "Ceiling R&D",
+            "participating_architects": "Participating Architects",
+            "organizer": "Organizer",
+            "co_organizer": "Co-Organizer",
+            "commissioner": "Commissioner",
+            "executive_agency": "Executive Agency",
+            "supporter": "Supporter",
+            "chief_intelligence_technology_partner": "Chief Intelligence and Technology Partner",
+            "chief_lighting_partner": "Chief Lighting Partner",
+            "co_presenting_partner": "Co-Presenting Partner",
+            "exclusive_gala_dinner_partner": "Exclusive Gala Dinner Partner",
+            "contributing_partner": "Contributing Partner",
+            "supported_by": "Supported by",
+            "technical_support_team": "Technical Support Team",
+            "graphic_design": "Graphic Design",
+            "exhibition_installation": "Exhibition Installation",
+            "logistics": "Logistics",
+            "editing_proofreading": "Editing and proofreading",
+            "hotel_architect": "Hotel Architect",
+            "mechanical_engineer": "Mechanical Engineer",
+            "facade_cladding_consultant": "Fa\u00e7ade/Cladding consultant",
+            "collaborator": "Collaborator",
+            "structure": "Structure",
+            "bamboo_steel_connectors": "Bamboo-steel connectors and Solar Bracket",
+            "landscaping": "Landscaping",
+            "flooring": "Flooring",
+            "glass_curtain_wall": "Glass Curtain Wall",
+            "decorative_beam": "Decorative Beam",
+            "supervisor": "Supervisor",
+            "producer": "Producer",
+            "exhibition_directors": "Exhibition Directors",
+            "exhibition_design": "Exhibition Design",
+            "curatorial_team": "Curatorial Team",
+            "exhibition_coordination": "Exhibition Coordination",
+            "exhibition_supervision": "Exhibition Supervision",
+            "exhibition_operation": "Exhibition Operation",
+            "exhibition_business": "Exhibition Business",
+            "communications_publicity": "Communications and Publicity",
+            "contributing_sponsor": "Contributing Sponsor",
+            "presenting_sponsor": "Presenting Sponsor",
+            "supporting_sponsor": "Supporting Sponsor",
+            "physical_model_support": "Physical Model Support",
+            "exhibition_set_up": "Exhibition Set Up",
+            "light_consultant": "Light Consultant",
+            "light_setup": "Light Setup",
+            "partial_documentary_photographs": "Partial Documentary Photographs",
+            "photographs": "Photographs",
+            "competition_organizer": "Competition Organizer",
+            "airport_consultant": "Airport Consultant",
+            "facade_consultant_light_study": "Facade Consultant / Light Study",
+            "landscape_design": "Landscape Design",
+            "curtain_wall_design": "Curtain Wall Design",
+            "construction": "Construction",
+            "facade_consultant_construction": "Fa\u00e7ade Consultant and Construction",
+            "music": "Music",
+            "consortium": "Consortium",
+            "mad_team": "Studio Team",
+            "china_airport_team": "Infrastructure Planning Team",
+            "beijing_architectural_team": "Architectural Design Team",
+            "exclusive_lighting_partner": "Exclusive Lighting Partner",
+            "structural_fabrication": "Structural Fabrication",
+            "design_institute": "Design Institute",
+            "builder": "Builder",
+            "tenant": "Tenant",
+            "heritage_consultant": "Heritage Consultant",
+            "associate_architects": "Associate Architects",
+            "electrical_engineer": "Electrical Engineer",
+            "associate_engineers": "Associate Engineers",
+            "facade_contractor": "Fa\u00e7ade Contractor",
+            "panel_optimization": "Panel Optimization",
+            "steel_structure_contractor": "Steel Structure Contractor",
+            "etpe_consultant": "ETPE Consultant",
+            "exhibition": "Exhibition",
+            "presented_by": "Presented by",
+            "construction_engineers": "Construction Engineers",
+            "acoustics": "Acoustics",
+            "interior_executive_architect": "Interior Executive Architect",
+            "traffic_facilities_planning": "Planning of traffic facilities",
+            "exhibition_consultant": "Exhibition Consultant",
+            "aerial_photography": "Aerial Photography",
+            "consultant": "Consultant",
+            "owner": "Owner",
+            "mep_engineer": "MEP Engineer",
+            "landscape": "Landscape",
+            "civil_consultant": "Civil Consultant",
+            "architect": "Architect",
+            "bim": "BIM",
+            "interior_decoration_consultant": "Interior Decoration Consultant",
+            "acoustics_consultants": "Acoustics Consultants",
+            "stage_lighting_acoustics": "Stage Lighting and Acoustics Design",
+            "stage_mechanical_engineers": "Stage Mechanical Engineers",
+            "facade_optimization": "Fa\u00e7ade Optimization",
+            "interior_design_office_commercial": "Interior Design (Office and Commercial)",
+            "interior_design_residential": "Interior Design (Residential)",
+            "interior_lighting_consultant": "Interior Lighting Consultant",
+            "landscape_lighting_consultant": "Landscape Lighting Consultant",
+            "leed_certification_consultant": "LEED Certification Consultant",
+            "natural_fog": "Natural Fog",
+            "composite_film": "Composite Film",
+            "photographer": "Photographer",
+            "acoustic_design": "Acoustic Design",
+            "traffic_assessment": "Traffic Assessment",
+            "animation": "Animation",
+            "renderings": "Renderings",
+            "model_photography": "Model Photography",
+            "civil_engineering": "Civil Engineering",
+            "green_wall_specialist": "Green Wall Specialist",
+            "general_constructor": "General Constructor",
+            "design_construction_drawings": "Design of Construction Drawings",
+            "first_stage_construction": "First Stage construction",
+            "second_stage_construction": "Second Stage Construction",
+            "supervisory_organization": "Supervisory organization",
+            "prefabrication_production": "Prefabrication Production",
+            "produced_by": "Produced by",
+            "interior_design_lighting_consultant": "Interior Design/Lighting consultant",
+            "video": "Video",
+            "interior_construction_contractor": "Interior Construction Contractor",
+            "executive_architect_structural_design": "Executive Architect/Structural Design",
+            "landscape_design_consultant": "Landscape Design Consultant",
+            "stage_consultant": "Stage Consultant",
+            "leed_consultant": "LEED Consultant"
+          },
+          "home": {}
+        }
+      },
+      "initialLocale": "en",
+      "ns": [
+        "common",
+        "home"
+      ],
+      "userConfig": {
+        "i18n": {
+          "defaultLocale": "en",
+          "locales": [
+            "en",
+            "zh"
+          ],
+          "localeDetection": false
+        },
+        "localePath": "/app/public/locales",
+        "reloadOnPrerender": false,
+        "default": {
+          "i18n": {
+            "defaultLocale": "en",
+            "locales": [
+              "en",
+              "zh"
+            ],
+            "localeDetection": false
+          },
+          "localePath": "/app/public/locales",
+          "reloadOnPrerender": false
+        }
+      }
+    }
+  },
+  "__N_SSG": true
+}

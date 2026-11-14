@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preload" href="/fonts/HelveticaNeue-Regular-subset.woff" as="font" type="font/woff" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/_next/static/css/809e4ec5fb63cec3.css" />
+    <title>Projects | Abhikhya Design Studio</title>
+    <meta name="description" content="Explore our architectural elevations, luxury residences, commercial office spaces, and retail designs across North India." />
+    <link rel="icon" href="/images/favicon.png" />
+    <style>
+      html { scroll-behavior: smooth; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+      .bg-blur-button { backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+      
+      /* Filter Pill Styling */
+      .mad-filter-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: #EDEDED;
+        color: #1A1A1A;
+        font-family: 'BB Manual Mono', monospace, sans-serif;
+        font-size: 11px;
+        text-transform: uppercase;
+        padding: 8px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border: 1px solid transparent;
+        user-select: none;
+      }
+      .mad-filter-pill:hover {
+        background: #DFDFDF;
+      }
+      .mad-filter-pill.is-active {
+        background: #000000;
+        color: #FFFFFF;
+      }
+
+      /* Category Tab Styling */
+      .mad-category-tab {
+        font-size: 32px;
+        font-weight: 300;
+        letter-spacing: -0.02em;
+        color: #9E9E9E;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        transition: color 0.25s ease;
+        line-height: 1;
+      }
+      @media (min-width: 768px) {
+        .mad-category-tab {
+          font-size: 40px;
+        }
+      }
+      .mad-category-tab:hover {
+        color: #1A1A1A;
+      }
+      .mad-category-tab.is-active {
+        color: #000000;
+        font-weight: 400;
+      }
+
+      /* Dropdown Menu */
+      .mad-dropdown-menu {
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 0;
+        background: #FFFFFF;
+        border: 1px solid #E5E5E5;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1);
+        padding: 8px;
+        min-width: 220px;
+        z-index: 100;
+        display: none;
+      }
+      .mad-dropdown-menu.is-open {
+        display: block;
+      }
+      .mad-dropdown-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 8px 12px;
+        font-size: 12px;
+        font-family: 'BB Manual Mono', monospace, sans-serif;
+        text-transform: uppercase;
+        color: #4B5563;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background 0.15s;
+      }
+      .mad-dropdown-item:hover {
+        background: #F3F4F6;
+        color: #000000;
+      }
+      .mad-dropdown-item.is-selected {
+        background: #000000;
+        color: #FFFFFF;
+      }
+
+      /* 3-Column Responsive Grid */
+      .mad-projects-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      @media (min-width: 640px) {
+        .mad-projects-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 24px;
+        }
+      }
+      @media (min-width: 1024px) {
+        .mad-projects-grid {
+          grid-template-columns: repeat(3, 1fr);
+          gap: 28px;
+        }
+      }
+    </style>
+</head>
+
+<body class="bg-[#F5F5F5] text-[#1A1A1A] font-sans antialiased selection:bg-black selection:text-white">
+    <!-- Header Navigation -->
+    <header class="fixed top-0 left-0 w-full z-50 px-4 md:px-10 py-5 transition-all duration-300">
+        <div class="flex justify-between items-center w-full">
+            <a aria-label="Abhikhya Design Studio Logo" class="w-[155px] flex items-center group" href="/"><svg id="abhikhya-interactive-logo" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;max-height:24px;width:auto;overflow:visible;">
+  <style>
+    #abhikhya-interactive-logo .logo-emblem {
+      transform-origin: 10px 12px;
+      transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .group:hover #abhikhya-interactive-logo .logo-emblem,
+    #btn-logo:hover #abhikhya-interactive-logo .logo-emblem {
+      transform: scale(1.1) rotate(6deg);
+    }
+    #abhikhya-interactive-logo .logo-title {
+      font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
+      font-size: 13.5px;
+      font-weight: 600;
+      letter-spacing: 2.2px;
+      fill: #1A1A1A;
+      transition: letter-spacing 0.35s ease, fill 0.35s ease;
+    }
+    .group:hover #abhikhya-interactive-logo .logo-title,
+    #btn-logo:hover #abhikhya-interactive-logo .logo-title {
+      letter-spacing: 2.8px;
+      fill: #000000;
+    }
+    #abhikhya-interactive-logo .logo-sub {
+      font-family: 'BB Manual Mono', monospace, sans-serif;
+      font-size: 5.5px;
+      font-weight: 500;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+      fill: #8E8E93;
+      transition: fill 0.35s ease;
+    }
+    .group:hover #abhikhya-interactive-logo .logo-sub,
+    #btn-logo:hover #abhikhya-interactive-logo .logo-sub {
+      fill: #444444;
+    }
+    .dark #abhikhya-interactive-logo .logo-title,
+    [data-theme="dark"] #abhikhya-interactive-logo .logo-title {
+      fill: #FFFFFF !important;
+    }
+    .dark #abhikhya-interactive-logo .logo-emblem path,
+    .dark #abhikhya-interactive-logo .logo-emblem rect,
+    .dark #abhikhya-interactive-logo .logo-emblem circle {
+      fill: #FFFFFF !important;
+    }
+  </style>
+  <g class="logo-emblem">
+    <path d="M10 2.5L2 21.5H5.8L7.8 16.5H12.2L14.2 21.5H18L10 2.5ZM10 8.8L11.4 13.5H8.6L10 8.8Z" fill="#1A1A1A" />
+    <rect x="0.5" y="14" width="19" height="1.6" rx="0.8" fill="#1A1A1A" />
+    <circle cx="10" cy="2.5" r="1.2" fill="#1A1A1A" />
+  </g>
+  <g class="logo-text">
+    <text x="25" y="15" class="logo-title">ABHIKHYA</text>
+    <text x="25.5" y="21.5" class="logo-sub">DESIGN STUDIO</text>
+  </g>
+</svg></a>
+
+            <nav class="flex gap-2 sm:gap-3 items-center">
+                <a href="/" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-gray-700 bg-[#F0F0F0] bg-blur-button hover:bg-[#CFCFCF]">
+                    <span>Home</span>
+                </a>
+                <a href="/projects" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-white bg-black bg-blur-button">
+                    <span>Projects</span>
+                </a>
+                <a href="/about" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-gray-700 bg-[#F0F0F0] bg-blur-button hover:bg-[#CFCFCF]">
+                    <span>About Us</span>
+                </a>
+                <a href="/contact" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-gray-700 bg-[#F0F0F0] bg-blur-button hover:bg-[#CFCFCF]">
+                    <span>Contact</span>
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="min-h-screen pt-28 pb-20 px-4 md:px-10 max-w-[1440px] mx-auto">
+        <!-- MAD Category Tabs Header Row (All, Architecture, Art, Design) -->
+        <div class="mb-8">
+            <div class="flex flex-wrap items-center gap-6 sm:gap-10">
+                <button class="mad-category-tab is-active" data-cat="All">All</button>
+                <button class="mad-category-tab" data-cat="Architecture">Architecture</button>
+                <button class="mad-category-tab" data-cat="Art">Art</button>
+                <button class="mad-category-tab" data-cat="Design">Design</button>
+            </div>
+        </div>
+
+        <!-- MAD Filter Pills Row (LOCATION +, STATUS +, TYPOLOGY +, List/Grid toggle) -->
+        <div class="flex flex-wrap items-center justify-between gap-4 mb-10 pb-4 border-b border-[#E5E5E5]">
+            <div class="flex flex-wrap items-center gap-3">
+                <!-- Location Filter Dropdown -->
+                <div class="relative">
+                    <button id="filter-location-btn" class="mad-filter-pill">
+                        <span id="label-location">LOCATION</span>
+                        <span class="text-xs">+</span>
+                    </button>
+                    <div id="dropdown-location" class="mad-dropdown-menu">
+                        <div class="mad-dropdown-item is-selected" data-type="location" data-val="ALL">
+                            <span>All Locations</span>
+                            <span>(11)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="location" data-val="Greater Noida">
+                            <span>Greater Noida</span>
+                            <span>(4)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="location" data-val="Noida">
+                            <span>Noida</span>
+                            <span>(3)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="location" data-val="Delhi">
+                            <span>Delhi NCR</span>
+                            <span>(2)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="location" data-val="Ghaziabad">
+                            <span>Ghaziabad</span>
+                            <span>(2)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Status Filter Dropdown -->
+                <div class="relative">
+                    <button id="filter-status-btn" class="mad-filter-pill">
+                        <span id="label-status">STATUS</span>
+                        <span class="text-xs">+</span>
+                    </button>
+                    <div id="dropdown-status" class="mad-dropdown-menu">
+                        <div class="mad-dropdown-item is-selected" data-type="status" data-val="ALL">
+                            <span>All Statuses</span>
+                            <span>(11)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="status" data-val="Completed">
+                            <span>Completed</span>
+                            <span>(8)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="status" data-val="In Progress">
+                            <span>In Progress</span>
+                            <span>(3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Typology Filter Dropdown -->
+                <div class="relative">
+                    <button id="filter-typology-btn" class="mad-filter-pill">
+                        <span id="label-typology">TYPOLOGY</span>
+                        <span class="text-xs">+</span>
+                    </button>
+                    <div id="dropdown-typology" class="mad-dropdown-menu">
+                        <div class="mad-dropdown-item is-selected" data-type="typology" data-val="ALL">
+                            <span>All Typologies</span>
+                            <span>(11)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="typology" data-val="Celebrity Residence">
+                            <span>Celebrity Residence</span>
+                            <span>(1)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="typology" data-val="Elevation & Architecture">
+                            <span>Elevation & Architecture</span>
+                            <span>(1)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="typology" data-val="Residential Interior">
+                            <span>Residential Interior</span>
+                            <span>(4)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="typology" data-val="Office & Commercial">
+                            <span>Office & Commercial</span>
+                            <span>(2)</span>
+                        </div>
+                        <div class="mad-dropdown-item" data-type="typology" data-val="Retail & Hospitality">
+                            <span>Retail & Hospitality</span>
+                            <span>(3)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Active Filter Reset Pill (hidden initially) -->
+                <button id="reset-filters-btn" class="hidden mad-filter-pill bg-gray-200 text-gray-700 hover:bg-gray-300">
+                    ✕ Reset
+                </button>
+            </div>
+
+            <!-- View Toggle: Grid vs List -->
+            <div class="flex items-center gap-1.5 bg-[#EDEDED] p-1 rounded-lg">
+                <button id="view-grid-btn" aria-label="Grid View" class="p-2 rounded-md bg-white text-black shadow-xs transition">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                        <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+                    </svg>
+                </button>
+                <button id="view-list-btn" aria-label="List View" class="p-2 rounded-md text-gray-500 hover:text-black transition">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Project Grid Container -->
+        <div id="projects-grid-view" class="mad-projects-grid">
+            
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="harsh-gujral-residence"
+           data-category="Art"
+           data-location="Greater Noida, Uttar Pradesh, India"
+           data-typology="Celebrity Residence"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('harsh-gujral-residence');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-1-harsh-gujral-residence.webp" 
+               alt="Harsh Gujral Residence" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Harsh Gujral Residence
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Greater Noida, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="modern-villa-elevation-design"
+           data-category="Architecture"
+           data-location="Greater Noida West, Uttar Pradesh, India"
+           data-typology="Elevation Design & Villa Architecture"
+           data-status="In Progress"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('modern-villa-elevation-design');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-2-elevation-villa-design.webp" 
+               alt="Modern Villa Elevation Design" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Modern Villa Elevation Design
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Greater Noida West, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="contemporary-luxury-living-dining"
+           data-category="Architecture"
+           data-location="Noida, Uttar Pradesh, India"
+           data-typology="Residential Interior Architecture"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('contemporary-luxury-living-dining');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-3-luxury-living-room.webp" 
+               alt="Contemporary Luxury Living & Dining" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Contemporary Luxury Living & Dining
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Noida, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="bespoke-master-suite-retreat"
+           data-category="Design"
+           data-location="Greater Noida, Uttar Pradesh, India"
+           data-typology="Master Suite & Private Sanctuary"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('bespoke-master-suite-retreat');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-4-contemporary-master-suite.webp" 
+               alt="Bespoke Master Suite & Retreat" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Bespoke Master Suite & Retreat
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Greater Noida, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="curated-kids-bedroom-study"
+           data-category="Design"
+           data-location="Sector 150, Noida, Uttar Pradesh, India"
+           data-typology="Children's Interior Design"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('curated-kids-bedroom-study');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-5-kids-bedroom-interior.webp" 
+               alt="Curated Kids Bedroom & Study" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Curated Kids Bedroom & Study
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Sector 150, Noida, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="guest-lounge-common-living"
+           data-category="Art"
+           data-location="Delhi NCR, India"
+           data-typology="Residential & Hospitality Lounge"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('guest-lounge-common-living');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-6-guest-lounge-common-area.webp" 
+               alt="Guest Lounge & Common Living" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Guest Lounge & Common Living
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Delhi NCR, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="corporate-headquarters-innovation-hub"
+           data-category="Design"
+           data-location="Sector 62, Noida, Uttar Pradesh, India"
+           data-typology="Corporate Office & Commercial Space"
+           data-status="In Progress"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('corporate-headquarters-innovation-hub');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-7-corporate-headquarters.webp" 
+               alt="Corporate Headquarters & Innovation Hub" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Corporate Headquarters & Innovation Hub
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Sector 62, Noida, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="executive-cabin-boardroom-suite"
+           data-category="Design"
+           data-location="Cyber City, Gurgaon, Haryana, India"
+           data-typology="Commercial Office Interior"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('executive-cabin-boardroom-suite');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-8-executive-cabin-workspace.webp" 
+               alt="Executive Cabin & Boardroom Suite" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Executive Cabin & Boardroom Suite
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Cyber City, Gurgaon, Haryana, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="flagship-retail-store-experience-center"
+           data-category="Design"
+           data-location="Indirapuram, Ghaziabad, Uttar Pradesh, India"
+           data-typology="Commercial Retail & Experience Center"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('flagship-retail-store-experience-center');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-9-flagship-retail-store.webp" 
+               alt="Flagship Retail Store & Experience Center" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Flagship Retail Store & Experience Center
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Indirapuram, Ghaziabad, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="boutique-salon-wellness-spa"
+           data-category="Art"
+           data-location="Greater Noida, Uttar Pradesh, India"
+           data-typology="Hospitality & Wellness Interior"
+           data-status="Completed"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('boutique-salon-wellness-spa');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-10-boutique-salon-spa.webp" 
+               alt="Boutique Salon & Wellness Spa" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Boutique Salon & Wellness Spa
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Greater Noida, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="project-grid-item group relative cursor-pointer" 
+           data-slug="grand-banquet-event-hospitality"
+           data-category="Art"
+           data-location="Ghaziabad, Uttar Pradesh, India"
+           data-typology="Hospitality & Convention Center"
+           data-status="In Progress"
+           onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('grand-banquet-event-hospitality');">
+        <div class="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-[#E5E5E5] transition-all duration-500 ease-out">
+          <img src="/images/projects/project-11-grand-banquet-hospitality.webp" 
+               alt="Grand Banquet & Event Hospitality" 
+               loading="lazy" 
+               class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" />
+          
+          <!-- MAD Hover / Floating Info Badge -->
+          <div class="absolute left-3 bottom-3 right-3 sm:right-auto bg-black/40 backdrop-blur-md rounded-xl p-3.5 text-white pointer-events-none transition-all duration-300 transform translate-y-1 group-hover:translate-y-0"
+               style="backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px);">
+            <h3 class="text-sm sm:text-base font-normal tracking-tight text-white leading-snug">
+              Grand Banquet & Event Hospitality
+            </h3>
+            <p class="text-[11px] uppercase font-manual tracking-wider text-gray-200 mt-0.5">
+              Ghaziabad, Uttar Pradesh, India
+            </p>
+          </div>
+        </div>
+      </div>
+    
+        </div>
+
+        <!-- Project List Container (hidden by default) -->
+        <div id="projects-list-view" class="hidden overflow-x-auto bg-white rounded-2xl border border-[#EAEAEA] p-4">
+            <table class="w-full text-left border-collapse">
+                <thead>
+                    <tr class="border-b border-[#E5E5E5] text-[11px] font-manual uppercase text-gray-400">
+                        <th class="py-3 px-4">Project</th>
+                        <th class="py-3 px-4">Typology</th>
+                        <th class="py-3 px-4">Location</th>
+                        <th class="py-3 px-4">Dates</th>
+                        <th class="py-3 px-4">Status</th>
+                        <th class="py-3 px-4 text-right">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="harsh-gujral-residence"
+          data-category="Art"
+          data-location="Greater Noida, Uttar Pradesh, India"
+          data-typology="Celebrity Residence"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('harsh-gujral-residence');">
+        <td class="py-4 px-4 font-normal text-gray-900">Harsh Gujral Residence</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Celebrity Residence</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Greater Noida, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2023 – 2024</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="modern-villa-elevation-design"
+          data-category="Architecture"
+          data-location="Greater Noida West, Uttar Pradesh, India"
+          data-typology="Elevation Design & Villa Architecture"
+          data-status="In Progress"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('modern-villa-elevation-design');">
+        <td class="py-4 px-4 font-normal text-gray-900">Modern Villa Elevation Design</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Elevation Design & Villa Architecture</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Greater Noida West, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2023 – 2025</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-amber-100 text-amber-800">
+            In Progress
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="contemporary-luxury-living-dining"
+          data-category="Architecture"
+          data-location="Noida, Uttar Pradesh, India"
+          data-typology="Residential Interior Architecture"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('contemporary-luxury-living-dining');">
+        <td class="py-4 px-4 font-normal text-gray-900">Contemporary Luxury Living & Dining</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Residential Interior Architecture</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Noida, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2023 – 2024</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="bespoke-master-suite-retreat"
+          data-category="Design"
+          data-location="Greater Noida, Uttar Pradesh, India"
+          data-typology="Master Suite & Private Sanctuary"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('bespoke-master-suite-retreat');">
+        <td class="py-4 px-4 font-normal text-gray-900">Bespoke Master Suite & Retreat</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Master Suite & Private Sanctuary</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Greater Noida, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2024 – 2025</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="curated-kids-bedroom-study"
+          data-category="Design"
+          data-location="Sector 150, Noida, Uttar Pradesh, India"
+          data-typology="Children's Interior Design"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('curated-kids-bedroom-study');">
+        <td class="py-4 px-4 font-normal text-gray-900">Curated Kids Bedroom & Study</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Children's Interior Design</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Sector 150, Noida, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2024 – 2024</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="guest-lounge-common-living"
+          data-category="Art"
+          data-location="Delhi NCR, India"
+          data-typology="Residential & Hospitality Lounge"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('guest-lounge-common-living');">
+        <td class="py-4 px-4 font-normal text-gray-900">Guest Lounge & Common Living</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Residential & Hospitality Lounge</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Delhi NCR, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2023 – 2024</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="corporate-headquarters-innovation-hub"
+          data-category="Design"
+          data-location="Sector 62, Noida, Uttar Pradesh, India"
+          data-typology="Corporate Office & Commercial Space"
+          data-status="In Progress"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('corporate-headquarters-innovation-hub');">
+        <td class="py-4 px-4 font-normal text-gray-900">Corporate Headquarters & Innovation Hub</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Corporate Office & Commercial Space</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Sector 62, Noida, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2023 – 2025</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-amber-100 text-amber-800">
+            In Progress
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="executive-cabin-boardroom-suite"
+          data-category="Design"
+          data-location="Cyber City, Gurgaon, Haryana, India"
+          data-typology="Commercial Office Interior"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('executive-cabin-boardroom-suite');">
+        <td class="py-4 px-4 font-normal text-gray-900">Executive Cabin & Boardroom Suite</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Commercial Office Interior</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Cyber City, Gurgaon, Haryana, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2024 – 2025</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="flagship-retail-store-experience-center"
+          data-category="Design"
+          data-location="Indirapuram, Ghaziabad, Uttar Pradesh, India"
+          data-typology="Commercial Retail & Experience Center"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('flagship-retail-store-experience-center');">
+        <td class="py-4 px-4 font-normal text-gray-900">Flagship Retail Store & Experience Center</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Commercial Retail & Experience Center</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Indirapuram, Ghaziabad, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2023 – 2024</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="boutique-salon-wellness-spa"
+          data-category="Art"
+          data-location="Greater Noida, Uttar Pradesh, India"
+          data-typology="Hospitality & Wellness Interior"
+          data-status="Completed"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('boutique-salon-wellness-spa');">
+        <td class="py-4 px-4 font-normal text-gray-900">Boutique Salon & Wellness Spa</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Hospitality & Wellness Interior</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Greater Noida, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2024 – 2024</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-emerald-100 text-emerald-800">
+            Completed
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+      <tr class="project-list-row border-b border-[#EAEAEA] hover:bg-[#F9F9F9] transition cursor-pointer text-sm"
+          data-slug="grand-banquet-event-hospitality"
+          data-category="Art"
+          data-location="Ghaziabad, Uttar Pradesh, India"
+          data-typology="Hospitality & Convention Center"
+          data-status="In Progress"
+          onclick="if(window.openAbhikhyaProject) window.openAbhikhyaProject('grand-banquet-event-hospitality');">
+        <td class="py-4 px-4 font-normal text-gray-900">Grand Banquet & Event Hospitality</td>
+        <td class="py-4 px-4 font-manual uppercase text-xs text-gray-500">Hospitality & Convention Center</td>
+        <td class="py-4 px-4 text-xs text-gray-600">Ghaziabad, Uttar Pradesh, India</td>
+        <td class="py-4 px-4 font-manual text-xs text-gray-500">2023 – 2025</td>
+        <td class="py-4 px-4">
+          <span class="inline-block px-2.5 py-0.5 rounded-full text-[10px] font-manual uppercase bg-amber-100 text-amber-800">
+            In Progress
+          </span>
+        </td>
+        <td class="py-4 px-4 text-right">
+          <span class="text-xs font-manual uppercase text-black font-semibold hover:underline">View →</span>
+        </td>
+      </tr>
+    
+                </tbody>
+            </table>
+        </div>
+
+        <!-- No Results Found Banner -->
+        <div id="no-projects-msg" class="hidden py-24 text-center">
+            <p class="text-xl font-light text-gray-600">No projects match the selected filters.</p>
+            <button onclick="document.getElementById('reset-filters-btn').click();" class="mt-4 px-6 py-2.5 rounded-lg bg-black text-white text-xs font-manual uppercase tracking-wider">
+                Reset All Filters
+            </button>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[#EDEDED] px-4 py-12 md:px-10 border-t border-[#DFDFDF]">
+        <div class="max-w-[1440px] mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            <div>
+                <a href="/" class="w-[75px] block mb-2">
+                    <img src="/images/logo.webp" alt="Abhikhya Design Studio" class="h-6 w-auto object-contain" width="75" height="24" />
+                </a>
+                <p class="text-xs text-gray-500 font-light">© Abhikhya Design Studio 2026. All rights reserved.</p>
+            </div>
+            <div class="flex flex-wrap gap-4 text-xs font-manual uppercase text-gray-700">
+                <a href="/" class="hover:underline">Home</a>
+                <a href="/projects" class="hover:underline font-bold">Projects</a>
+                <a href="/about" class="hover:underline">About Us</a>
+                <a href="/contact" class="hover:underline">Contact</a>
+            </div>
+            <div class="flex gap-4 text-xs font-manual uppercase text-gray-700">
+                <a href="https://www.instagram.com/abhikhyadesignstudio/" target="_blank" class="hover:underline">Instagram</a>
+                <a href="https://www.facebook.com/abhikhyadesignstudio/" target="_blank" class="hover:underline">Facebook</a>
+                <a href="https://in.linkedin.com/company/abhikhya-design-studio" target="_blank" class="hover:underline">LinkedIn</a>
+                <a href="https://x.com/abhikhyadesign" target="_blank" class="hover:underline">X</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Filtering & View Controller Script -->
+    <script>
+      (function() {
+        let selectedCategory = 'All';
+        let selectedLocation = 'ALL';
+        let selectedStatus = 'ALL';
+        let selectedTypology = 'ALL';
+
+        const categoryTabs = document.querySelectorAll('.mad-category-tab');
+        const gridView = document.getElementById('projects-grid-view');
+        const listView = document.getElementById('projects-list-view');
+        const viewGridBtn = document.getElementById('view-grid-btn');
+        const viewListBtn = document.getElementById('view-list-btn');
+        const resetBtn = document.getElementById('reset-filters-btn');
+        const noMsg = document.getElementById('no-projects-msg');
+
+        // Dropdown buttons & menus
+        const dropdowns = [
+          { btn: document.getElementById('filter-location-btn'), menu: document.getElementById('dropdown-location') },
+          { btn: document.getElementById('filter-status-btn'), menu: document.getElementById('dropdown-status') },
+          { btn: document.getElementById('filter-typology-btn'), menu: document.getElementById('dropdown-typology') }
+        ];
+
+        dropdowns.forEach(d => {
+          if (!d.btn || !d.menu) return;
+          d.btn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isOpen = d.menu.classList.contains('is-open');
+            closeAllDropdowns();
+            if (!isOpen) {
+              d.menu.classList.add('is-open');
+              d.btn.classList.add('is-active');
+            }
+          });
+        });
+
+        function closeAllDropdowns() {
+          dropdowns.forEach(d => {
+            if (d.menu) d.menu.classList.remove('is-open');
+            if (d.btn) d.btn.classList.remove('is-active');
+          });
+        }
+
+        document.addEventListener('click', closeAllDropdowns);
+
+        // Dropdown Items Selection
+        document.querySelectorAll('.mad-dropdown-item').forEach(item => {
+          item.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const type = item.dataset.type;
+            const val = item.dataset.val;
+
+            // Update selected class in that menu
+            item.parentElement.querySelectorAll('.mad-dropdown-item').forEach(el => el.classList.remove('is-selected'));
+            item.classList.add('is-selected');
+
+            if (type === 'location') {
+              selectedLocation = val;
+              document.getElementById('label-location').textContent = val === 'ALL' ? 'LOCATION' : val;
+            } else if (type === 'status') {
+              selectedStatus = val;
+              document.getElementById('label-status').textContent = val === 'ALL' ? 'STATUS' : val;
+            } else if (type === 'typology') {
+              selectedTypology = val;
+              document.getElementById('label-typology').textContent = val === 'ALL' ? 'TYPOLOGY' : val;
+            }
+
+            closeAllDropdowns();
+            filterProjects();
+          });
+        });
+
+        // Category Tabs
+        categoryTabs.forEach(tab => {
+          tab.addEventListener('click', () => {
+            categoryTabs.forEach(t => t.classList.remove('is-active'));
+            tab.classList.add('is-active');
+            selectedCategory = tab.dataset.cat;
+            filterProjects();
+          });
+        });
+
+        function filterProjects() {
+          const isFilterActive = selectedCategory !== 'All' || selectedLocation !== 'ALL' || selectedStatus !== 'ALL' || selectedTypology !== 'ALL';
+          if (resetBtn) {
+            if (isFilterActive) resetBtn.classList.remove('hidden');
+            else resetBtn.classList.add('hidden');
+          }
+
+          const gridItems = document.querySelectorAll('.project-grid-item');
+          const listRows = document.querySelectorAll('.project-list-row');
+          let visibleCount = 0;
+
+          gridItems.forEach(item => {
+            const matchCat = selectedCategory === 'All' || item.dataset.category === selectedCategory;
+            const matchLoc = selectedLocation === 'ALL' || item.dataset.location.includes(selectedLocation);
+            const matchStat = selectedStatus === 'ALL' || item.dataset.status === selectedStatus;
+            const matchType = selectedTypology === 'ALL' || item.dataset.typology.includes(selectedTypology);
+
+            if (matchCat && matchLoc && matchStat && matchType) {
+              item.style.display = 'block';
+              visibleCount++;
+            } else {
+              item.style.display = 'none';
+            }
+          });
+
+          listRows.forEach(row => {
+            const matchCat = selectedCategory === 'All' || row.dataset.category === selectedCategory;
+            const matchLoc = selectedLocation === 'ALL' || row.dataset.location.includes(selectedLocation);
+            const matchStat = selectedStatus === 'ALL' || row.dataset.status === selectedStatus;
+            const matchType = selectedTypology === 'ALL' || row.dataset.typology.includes(selectedTypology);
+
+            if (matchCat && matchLoc && matchStat && matchType) {
+              row.style.display = 'table-row';
+            } else {
+              row.style.display = 'none';
+            }
+          });
+
+          if (noMsg) {
+            if (visibleCount === 0) noMsg.classList.remove('hidden');
+            else noMsg.classList.add('hidden');
+          }
+        }
+
+        // Reset All Filters
+        if (resetBtn) {
+          resetBtn.addEventListener('click', () => {
+            selectedCategory = 'All';
+            selectedLocation = 'ALL';
+            selectedStatus = 'ALL';
+            selectedTypology = 'ALL';
+
+            categoryTabs.forEach(t => {
+              t.classList.remove('is-active');
+              if (t.dataset.cat === 'All') t.classList.add('is-active');
+            });
+
+            document.getElementById('label-location').textContent = 'LOCATION';
+            document.getElementById('label-status').textContent = 'STATUS';
+            document.getElementById('label-typology').textContent = 'TYPOLOGY';
+
+            document.querySelectorAll('.mad-dropdown-item').forEach(el => {
+              if (el.dataset.val === 'ALL') el.classList.add('is-selected');
+              else el.classList.remove('is-selected');
+            });
+
+            filterProjects();
+          });
+        }
+
+        // Grid / List Toggle
+        if (viewGridBtn && viewListBtn) {
+          viewGridBtn.addEventListener('click', () => {
+            gridView.classList.remove('hidden');
+            listView.classList.add('hidden');
+            viewGridBtn.classList.add('bg-white', 'text-black', 'shadow-xs');
+            viewGridBtn.classList.remove('text-gray-500');
+            viewListBtn.classList.remove('bg-white', 'text-black', 'shadow-xs');
+            viewListBtn.classList.add('text-gray-500');
+          });
+
+          viewListBtn.addEventListener('click', () => {
+            gridView.classList.add('hidden');
+            listView.classList.remove('hidden');
+            viewListBtn.classList.add('bg-white', 'text-black', 'shadow-xs');
+            viewListBtn.classList.remove('text-gray-500');
+            viewGridBtn.classList.remove('bg-white', 'text-black', 'shadow-xs');
+            viewGridBtn.classList.add('text-gray-500');
+          });
+        }
+      })();
+    </script>
+
+    <!-- Interactive Project Modal Script (Opens Full Project on Picture Click) -->
+    <script src="/project-modal.js" defer></script>
+</body>
+</html>
