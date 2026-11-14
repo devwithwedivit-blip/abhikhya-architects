@@ -78,151 +78,172 @@
     <script src="/_next/static/chunks/pages/index-e1a336a748f6cb18.js" defer=""></script>
     <script src="/_next/static/8bQmyGFjwsb59GNLUPDoh/_buildManifest.js" defer=""></script>
     <script src="/_next/static/8bQmyGFjwsb59GNLUPDoh/_ssgManifest.js" defer=""></script>
+
+    <style id="site-header-css">
+      .site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        padding: 12px 14px;
+        background: rgba(245, 245, 245, 0.92);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        box-sizing: border-box;
+      }
+      @media (min-width: 640px) {
+        .site-header {
+          padding: 16px 32px;
+        }
+      }
+      .site-header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        gap: 8px;
+        box-sizing: border-box;
+      }
+      .site-logo-link {
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
+        text-decoration: none;
+        line-height: 1;
+      }
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        flex-shrink: 0;
+      }
+      @media (min-width: 640px) {
+        .site-nav {
+          gap: 8px;
+        }
+      }
+      .site-nav-pill {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'BB Manual Mono', monospace, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        padding: 6px 9px;
+        border-radius: 8px;
+        background-color: #EDEDED !important;
+        color: #333333 !important;
+        text-decoration: none !important;
+        white-space: nowrap;
+        transition: background-color 0.2s ease, color 0.2s ease;
+        line-height: 1;
+        cursor: pointer;
+        border: 1px solid transparent;
+      }
+      @media (min-width: 640px) {
+        .site-nav-pill {
+          font-size: 12px;
+          padding: 8px 16px;
+        }
+      }
+      .site-nav-pill:hover {
+        background-color: #DFDFDF !important;
+        color: #000000 !important;
+      }
+      .site-nav-pill.is-active {
+        background-color: #000000 !important;
+        color: #FFFFFF !important;
+      }
+      .about-us-suffix {
+        display: none;
+      }
+      @media (min-width: 480px) {
+        .about-us-suffix {
+          display: inline;
+        }
+      }
+      @media (max-width: 360px) {
+        .site-header {
+          padding: 10px 8px;
+        }
+        .site-nav-pill {
+          padding: 5px 6px;
+          font-size: 10px;
+        }
+        .site-nav {
+          gap: 3px;
+        }
+      }
+    </style>
 </head>
 
 <body>
     <div id="__next">
-        <div class="fixed top-0 px-4 md:px-10 pt-3 pb-3 flex justify-between w-full items-end z-[99] bg-blur-gradient" style="opacity:1">
-            <div class="hidden lg:flex justify-between w-full">
-                <div class="overflow-hidden">
-                    <div class="flex" style="transform:translateY(0)"><a aria-label="Abhikhya Design Studio Logo" class="w-[155px] flex items-center group" id="btn-logo" href="/"><svg id="abhikhya-interactive-logo" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;max-height:24px;width:auto;overflow:visible;">
-  <style>
-    #abhikhya-interactive-logo .logo-emblem {
-      transform-origin: 10px 12px;
-      transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    .group:hover #abhikhya-interactive-logo .logo-emblem,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-emblem {
-      transform: scale(1.1) rotate(6deg);
-    }
-    #abhikhya-interactive-logo .logo-title {
-      font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
-      font-size: 13.5px;
-      font-weight: 600;
-      letter-spacing: 2.2px;
-      fill: #1A1A1A;
-      transition: letter-spacing 0.35s ease, fill 0.35s ease;
-    }
-    .group:hover #abhikhya-interactive-logo .logo-title,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-title {
-      letter-spacing: 2.8px;
-      fill: #000000;
-    }
-    #abhikhya-interactive-logo .logo-sub {
-      font-family: 'BB Manual Mono', monospace, sans-serif;
-      font-size: 5.5px;
-      font-weight: 500;
-      letter-spacing: 2.4px;
-      text-transform: uppercase;
-      fill: #8E8E93;
-      transition: fill 0.35s ease;
-    }
-    .group:hover #abhikhya-interactive-logo .logo-sub,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-sub {
-      fill: #444444;
-    }
-    .dark #abhikhya-interactive-logo .logo-title,
-    [data-theme="dark"] #abhikhya-interactive-logo .logo-title {
-      fill: #FFFFFF !important;
-    }
-    .dark #abhikhya-interactive-logo .logo-emblem path,
-    .dark #abhikhya-interactive-logo .logo-emblem rect,
-    .dark #abhikhya-interactive-logo .logo-emblem circle {
-      fill: #FFFFFF !important;
-    }
-  </style>
-  <g class="logo-emblem">
-    <path d="M10 2.5L2 21.5H5.8L7.8 16.5H12.2L14.2 21.5H18L10 2.5ZM10 8.8L11.4 13.5H8.6L10 8.8Z" fill="#1A1A1A" />
-    <rect x="0.5" y="14" width="19" height="1.6" rx="0.8" fill="#1A1A1A" />
-    <circle cx="10" cy="2.5" r="1.2" fill="#1A1A1A" />
-  </g>
-  <g class="logo-text">
-    <text x="25" y="15" class="logo-title">ABHIKHYA</text>
-    <text x="25.5" y="21.5" class="logo-sub">DESIGN STUDIO</text>
-  </g>
-</svg></a></div>
-                </div><span class="block" style="opacity:1;filter:none;transform:translateY(0)"><div class="flex gap-3"><a style="backdrop-filter:blur(8px)" id="btn-projects" aria-label="Projects" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 font-manual hover:bg-[#CFCFCF] active:bg-[#A0A0A0] text-gray-700 bg-[#F0F0F0] bg-blur-button" target="_self" href="/projects"><span class="translate-y-[1px]">Projects</span></a>
-                <a style="backdrop-filter:blur(8px)" id="btn-about" aria-label="About Us" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 font-manual hover:bg-[#CFCFCF] active:bg-[#A0A0A0] text-gray-700 bg-[#F0F0F0] bg-blur-button" target="_self" href="/about"><span class="translate-y-[1px]">About Us</span></a>
-<a style="backdrop-filter:blur(8px)" id="btn-contact" aria-label="Contact" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 font-manual hover:bg-[#CFCFCF] active:bg-[#A0A0A0] text-gray-700 bg-[#F0F0F0] bg-blur-button" target="_self" href="/contact"><span class="translate-y-[1px]">Contact</span></a><button id="btn-office" aria-label="Office" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 text-gray-700 font-manual !bg-red bg-[#E6E6E6] sm:hover:bg-[#CFCFCF] bg-blur-button "><span class="relative overflow-hidden pointer-events-none" style="clip-path:inset(0px);transform:translateY(0.5px)"><span class="inline-block relative" style="top:0em">Office</span><span class="absolute translate-y-[110%] left-0 top-0" style="top:0em">Office</span></span><span class="relative overflow-hidden"><svg class="absolute top-[120%] transition transition-all group-hover:top-[0%] top-0 duration-[0.4s]" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector 103" d="M6 0.5V12.5M0 6.5H12" stroke="#1A1A1A"></path></svg><svg class="relative top-0 group-hover:-translate-y-[100%] transition transition-all duration-[0.4s]" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg"><path id="Vector 103" d="M6 0.5V12.5M0 6.5H12" stroke="#1A1A1A"></path></svg></span></button>
-                    <button
-                        id="btn-search" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 text-gray-700 font-manual bg-[#E6E6E6] sm:hover:bg-[#CFCFCF] bg-blur-button "><span class="relative overflow-hidden"><svg class="relative top-0 group-hover:-translate-y-[100%] transition transition-all duration-[0.4s]" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M8.96583 8.13212C9.66287 7.25741 10.0456 6.15035 10.0456 5.02962C10.0456 2.2688 7.79043 0.0136719 5.01595 0.0136719C2.24146 0.0136719 0 2.2688 0 5.02962C0 7.79044 2.25513 10.0456 5.01595 10.0456C6.12301 10.0456 7.23007 9.66287 8.11845 8.96584L11.139 11.9863L12 11.1253L8.96583 8.13212ZM5.01595 8.8565C2.92483 8.8565 1.2164 7.14807 1.2164 5.05695C1.2164 2.96584 2.92483 1.25741 5.01595 1.25741C7.10706 1.25741 8.81549 2.96584 8.81549 5.05695C8.81549 7.14807 7.10706 8.8565 5.01595 8.8565Z" fill="#1A1A1A"></path></svg><svg class="absolute top-[120%] transition transition-all group-hover:top-[0%] top-0 duration-[0.4s]" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M8.96583 8.13212C9.66287 7.25741 10.0456 6.15035 10.0456 5.02962C10.0456 2.2688 7.79043 0.0136719 5.01595 0.0136719C2.24146 0.0136719 0 2.2688 0 5.02962C0 7.79044 2.25513 10.0456 5.01595 10.0456C6.12301 10.0456 7.23007 9.66287 8.11845 8.96584L11.139 11.9863L12 11.1253L8.96583 8.13212ZM5.01595 8.8565C2.92483 8.8565 1.2164 7.14807 1.2164 5.05695C1.2164 2.96584 2.92483 1.25741 5.01595 1.25741C7.10706 1.25741 8.81549 2.96584 8.81549 5.05695C8.81549 7.14807 7.10706 8.8565 5.01595 8.8565Z" fill="#1A1A1A"></path></svg></span></button>
-                        <a
-                            style="backdrop-filter:blur(8px)" id="btn-contact" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 font-manual hover:bg-[#CFCFCF] active:bg-[#A0A0A0] text-gray-700 bg-[#F0F0F0] bg-blur-button"
-                            target="_self" href="/contact"><span class="relative overflow-hidden"><svg class="absolute top-[120%] transition transition-all group-hover:top-[0%] top-0 duration-[0.4s]" width="12" height="12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 12"><path fill="#1A1A1A" d="M2.413 5.194a10.099 10.099 0 0 0 4.394 4.393L8.273 8.12c.18-.18.447-.24.68-.16.747.247 1.554.38 2.38.38.367 0 .667.3.667.667v2.327c0 .367-.3.667-.667.667C5.073 12 0 6.927 0 .667 0 .3.3 0 .667 0H3c.367 0 .667.3.667.667 0 .833.133 1.633.38 2.38a.669.669 0 0 1-.167.68L2.413 5.194Z"></path></svg><svg class="relative top-0 group-hover:-translate-y-[100%] transition transition-all duration-[0.4s]" width="12" height="12" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 12"><path fill="#1A1A1A" d="M2.413 5.194a10.099 10.099 0 0 0 4.394 4.393L8.273 8.12c.18-.18.447-.24.68-.16.747.247 1.554.38 2.38.38.367 0 .667.3.667.667v2.327c0 .367-.3.667-.667.667C5.073 12 0 6.927 0 .667 0 .3.3 0 .667 0H3c.367 0 .667.3.667.667 0 .833.133 1.633.38 2.38a.669.669 0 0 1-.167.68L2.413 5.194Z"></path></svg></span></a>
-                            <button
-                                id="btn-lang" aria-label="EN" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 text-gray-700 font-manual bg-[#E6E6E6] sm:hover:bg-[#CFCFCF] bg-blur-button "><span class="relative overflow-hidden pointer-events-none" style="clip-path:inset(0px);transform:translateY(0.5px)"><span class="inline-block relative" style="top:0em">EN</span><span class="absolute translate-y-[110%] left-0 top-0"
-                                    style="top:0em">EN</span></span>
-                                </button>
-            </div>
-            </span>
+        <!-- Header Navigation -->
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a aria-label="Abhikhya Design Studio Logo" class="site-logo-link group" href="/">
+                <svg id="abhikhya-interactive-logo" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 sm:h-6 w-auto transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;height:20px;max-height:24px;width:auto;">
+                    <style>
+                        #abhikhya-interactive-logo .logo-emblem {
+                            transform-origin: 10px 12px;
+                            transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+                        }
+                        .group:hover #abhikhya-interactive-logo .logo-emblem {
+                            transform: scale(1.1) rotate(6deg);
+                        }
+                        #abhikhya-interactive-logo .logo-title {
+                            font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
+                            font-size: 13.5px;
+                            font-weight: 600;
+                            letter-spacing: 2.2px;
+                            fill: #1A1A1A;
+                            transition: letter-spacing 0.35s ease, fill 0.35s ease;
+                        }
+                        .group:hover #abhikhya-interactive-logo .logo-title {
+                            letter-spacing: 2.8px;
+                            fill: #000000;
+                        }
+                        #abhikhya-interactive-logo .logo-sub {
+                            font-family: 'BB Manual Mono', monospace, sans-serif;
+                            font-size: 5.5px;
+                            font-weight: 500;
+                            letter-spacing: 2.4px;
+                            text-transform: uppercase;
+                            fill: #8E8E93;
+                            transition: fill 0.35s ease;
+                        }
+                        .group:hover #abhikhya-interactive-logo .logo-sub {
+                            fill: #444444;
+                        }
+                    </style>
+                    <g class="logo-emblem">
+                        <path d="M10 2.5L2 21.5H5.8L7.8 16.5H12.2L14.2 21.5H18L10 2.5ZM10 8.8L11.4 13.5H8.6L10 8.8Z" fill="#1A1A1A" />
+                        <rect x="0.5" y="14" width="19" height="1.6" rx="0.8" fill="#1A1A1A" />
+                        <circle cx="10" cy="2.5" r="1.2" fill="#1A1A1A" />
+                    </g>
+                    <g class="logo-text">
+                        <text x="25" y="15" class="logo-title">ABHIKHYA</text>
+                        <text x="25.5" y="21.5" class="logo-sub">DESIGN STUDIO</text>
+                    </g>
+                </svg>
+            </a>
+
+            <nav class="site-nav">
+                <a href="/" class="site-nav-pill is-active">Home</a>
+                <a href="/projects" class="site-nav-pill">Projects</a>
+                <a href="/about" class="site-nav-pill">About<span class="about-us-suffix"> Us</span></a>
+                <a href="/contact" class="site-nav-pill">Contact</a>
+            </nav>
         </div>
-        <div class="lg:hidden flex justify-between w-full items-center">
-            <div class="overflow-hidden">
-                <div class="flex" style="transform:translateY(0)"><a aria-label="Abhikhya Design Studio Logo" class="w-[155px] flex items-center group" href="/"><svg id="abhikhya-interactive-logo" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;max-height:24px;width:auto;overflow:visible;">
-  <style>
-    #abhikhya-interactive-logo .logo-emblem {
-      transform-origin: 10px 12px;
-      transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    .group:hover #abhikhya-interactive-logo .logo-emblem,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-emblem {
-      transform: scale(1.1) rotate(6deg);
-    }
-    #abhikhya-interactive-logo .logo-title {
-      font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
-      font-size: 13.5px;
-      font-weight: 600;
-      letter-spacing: 2.2px;
-      fill: #1A1A1A;
-      transition: letter-spacing 0.35s ease, fill 0.35s ease;
-    }
-    .group:hover #abhikhya-interactive-logo .logo-title,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-title {
-      letter-spacing: 2.8px;
-      fill: #000000;
-    }
-    #abhikhya-interactive-logo .logo-sub {
-      font-family: 'BB Manual Mono', monospace, sans-serif;
-      font-size: 5.5px;
-      font-weight: 500;
-      letter-spacing: 2.4px;
-      text-transform: uppercase;
-      fill: #8E8E93;
-      transition: fill 0.35s ease;
-    }
-    .group:hover #abhikhya-interactive-logo .logo-sub,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-sub {
-      fill: #444444;
-    }
-    .dark #abhikhya-interactive-logo .logo-title,
-    [data-theme="dark"] #abhikhya-interactive-logo .logo-title {
-      fill: #FFFFFF !important;
-    }
-    .dark #abhikhya-interactive-logo .logo-emblem path,
-    .dark #abhikhya-interactive-logo .logo-emblem rect,
-    .dark #abhikhya-interactive-logo .logo-emblem circle {
-      fill: #FFFFFF !important;
-    }
-  </style>
-  <g class="logo-emblem">
-    <path d="M10 2.5L2 21.5H5.8L7.8 16.5H12.2L14.2 21.5H18L10 2.5ZM10 8.8L11.4 13.5H8.6L10 8.8Z" fill="#1A1A1A" />
-    <rect x="0.5" y="14" width="19" height="1.6" rx="0.8" fill="#1A1A1A" />
-    <circle cx="10" cy="2.5" r="1.2" fill="#1A1A1A" />
-  </g>
-  <g class="logo-text">
-    <text x="25" y="15" class="logo-title">ABHIKHYA</text>
-    <text x="25.5" y="21.5" class="logo-sub">DESIGN STUDIO</text>
-  </g>
-</svg></a></div>
-            </div><span class="block" style="opacity:1;filter:none;transform:translateY(0)"><div class="flex gap-2 items-center"><a style="backdrop-filter:blur(8px)" aria-label="Projects" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 font-manual hover:bg-[#CFCFCF] active:bg-[#A0A0A0] text-gray-700 bg-[#F0F0F0] bg-blur-button" target="_self" href="/projects"><span class="translate-y-[1px]">Projects</span></a>
-            <button
-                id="" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 text-gray-700 font-manual bg-[#E6E6E6] sm:hover:bg-[#CFCFCF] bg-blur-button "><span class="relative overflow-hidden"><svg class="relative top-0 group-hover:-translate-y-[100%] transition transition-all duration-[0.4s]" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M8.96583 8.13212C9.66287 7.25741 10.0456 6.15035 10.0456 5.02962C10.0456 2.2688 7.79043 0.0136719 5.01595 0.0136719C2.24146 0.0136719 0 2.2688 0 5.02962C0 7.79044 2.25513 10.0456 5.01595 10.0456C6.12301 10.0456 7.23007 9.66287 8.11845 8.96584L11.139 11.9863L12 11.1253L8.96583 8.13212ZM5.01595 8.8565C2.92483 8.8565 1.2164 7.14807 1.2164 5.05695C1.2164 2.96584 2.92483 1.25741 5.01595 1.25741C7.10706 1.25741 8.81549 2.96584 8.81549 5.05695C8.81549 7.14807 7.10706 8.8565 5.01595 8.8565Z" fill="#1A1A1A"></path></svg><svg class="absolute top-[120%] transition transition-all group-hover:top-[0%] top-0 duration-[0.4s]" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M8.96583 8.13212C9.66287 7.25741 10.0456 6.15035 10.0456 5.02962C10.0456 2.2688 7.79043 0.0136719 5.01595 0.0136719C2.24146 0.0136719 0 2.2688 0 5.02962C0 7.79044 2.25513 10.0456 5.01595 10.0456C6.12301 10.0456 7.23007 9.66287 8.11845 8.96584L11.139 11.9863L12 11.1253L8.96583 8.13212ZM5.01595 8.8565C2.92483 8.8565 1.2164 7.14807 1.2164 5.05695C1.2164 2.96584 2.92483 1.25741 5.01595 1.25741C7.10706 1.25741 8.81549 2.96584 8.81549 5.05695C8.81549 7.14807 7.10706 8.8565 5.01595 8.8565Z" fill="#1A1A1A"></path></svg></span></button>
-                <button
-                    id="" class="group flex justify-center gap-3 items-center text-center transition-all duration-300 leading-none cursor-pointer uppercase text-[12px] rounded-[8px] px-5 py-3 md:py-2.5 text-gray-700 font-manual bg-[#E6E6E6] sm:hover:bg-[#CFCFCF] bg-blur-button "><span class="relative overflow-hidden"><svg width="12" height="12" viewBox="0 0 12 12"><g id="noun-menu-1166844" clip-path="url(#clip0_2044_6092)"><path id="Vector" d="M10.5 7.5C11.3028 7.5 12 6.81429 12 6C12 5.18571 11.3239 4.5 10.5 4.5C9.69718 4.5 9 5.18571 9 6C9.02113 6.81429 9.69718 7.5 10.5 7.5Z" fill="black"></path><path id="Vector_2" d="M6 7.5C6.80282 7.5 7.5 6.81429 7.5 6C7.5 5.18571 6.82394 4.5 6 4.5C5.19718 4.5 4.5 5.18571 4.5 6C4.52113 6.81429 5.19718 7.5 6 7.5Z" fill="black"></path><path id="Vector_3" d="M1.5 7.5C2.30282 7.5 3 6.81429 3 6C3 5.18571 2.32394 4.5 1.5 4.5C0.697183 4.5 0 5.18571 0 6C0.0211268 6.81429 0.697183 7.5 1.5 7.5Z" fill="black"></path><path id="Vector_4" d="M4.5 10.5C4.5 11.3028 5.18571 12 6 12C6.81429 12 7.5 11.3239 7.5 10.5C7.5 9.69718 6.81429 9 6 9C5.18571 9.02113 4.5 9.69718 4.5 10.5Z" fill="black"></path><path id="Vector_5" d="M4.5 1.5C4.5 2.30282 5.18571 3 6 3C6.81429 3 7.5 2.32394 7.5 1.5C7.5 0.697183 6.81429 -2.99735e-08 6 -6.55671e-08C5.18571 0.0211267 4.5 0.697183 4.5 1.5Z" fill="black"></path></g><defs><clipPath id="clip0_2044_6092"><rect width="12" height="12" fill="white"></rect></clipPath></defs></svg></span></button>
-        </div>
-        </span>
-    </div>
-    </div>
+    </header>
     <div class="progressive-blur-container">
         <div class="blur-filter" style="opacity:1"></div>
         <div class="blur-filter" style="opacity:1"></div>

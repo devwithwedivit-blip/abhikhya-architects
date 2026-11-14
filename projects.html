@@ -122,82 +122,168 @@
         }
       }
     </style>
+
+    <style id="site-header-css">
+      .site-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        padding: 12px 14px;
+        background: rgba(245, 245, 245, 0.92);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        box-sizing: border-box;
+      }
+      @media (min-width: 640px) {
+        .site-header {
+          padding: 16px 32px;
+        }
+      }
+      .site-header-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        gap: 8px;
+        box-sizing: border-box;
+      }
+      .site-logo-link {
+        display: inline-flex;
+        align-items: center;
+        flex-shrink: 0;
+        text-decoration: none;
+        line-height: 1;
+      }
+      .site-nav {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        flex-shrink: 0;
+      }
+      @media (min-width: 640px) {
+        .site-nav {
+          gap: 8px;
+        }
+      }
+      .site-nav-pill {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'BB Manual Mono', monospace, sans-serif;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        padding: 6px 9px;
+        border-radius: 8px;
+        background-color: #EDEDED !important;
+        color: #333333 !important;
+        text-decoration: none !important;
+        white-space: nowrap;
+        transition: background-color 0.2s ease, color 0.2s ease;
+        line-height: 1;
+        cursor: pointer;
+        border: 1px solid transparent;
+      }
+      @media (min-width: 640px) {
+        .site-nav-pill {
+          font-size: 12px;
+          padding: 8px 16px;
+        }
+      }
+      .site-nav-pill:hover {
+        background-color: #DFDFDF !important;
+        color: #000000 !important;
+      }
+      .site-nav-pill.is-active {
+        background-color: #000000 !important;
+        color: #FFFFFF !important;
+      }
+      .about-us-suffix {
+        display: none;
+      }
+      @media (min-width: 480px) {
+        .about-us-suffix {
+          display: inline;
+        }
+      }
+      @media (max-width: 360px) {
+        .site-header {
+          padding: 10px 8px;
+        }
+        .site-nav-pill {
+          padding: 5px 6px;
+          font-size: 10px;
+        }
+        .site-nav {
+          gap: 3px;
+        }
+      }
+    </style>
 </head>
 
 <body class="bg-[#F5F5F5] text-[#1A1A1A] font-sans antialiased selection:bg-black selection:text-white">
     <!-- Header Navigation -->
-    <header class="fixed top-0 left-0 w-full z-50 px-4 md:px-10 py-5 transition-all duration-300">
-        <div class="flex justify-between items-center w-full">
-            <a aria-label="Abhikhya Design Studio Logo" class="w-[155px] flex items-center group" href="/"><svg id="abhikhya-interactive-logo" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-6 w-auto transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;max-height:24px;width:auto;overflow:visible;">
-  <style>
-    #abhikhya-interactive-logo .logo-emblem {
-      transform-origin: 10px 12px;
-      transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-    .group:hover #abhikhya-interactive-logo .logo-emblem,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-emblem {
-      transform: scale(1.1) rotate(6deg);
-    }
-    #abhikhya-interactive-logo .logo-title {
-      font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
-      font-size: 13.5px;
-      font-weight: 600;
-      letter-spacing: 2.2px;
-      fill: #1A1A1A;
-      transition: letter-spacing 0.35s ease, fill 0.35s ease;
-    }
-    .group:hover #abhikhya-interactive-logo .logo-title,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-title {
-      letter-spacing: 2.8px;
-      fill: #000000;
-    }
-    #abhikhya-interactive-logo .logo-sub {
-      font-family: 'BB Manual Mono', monospace, sans-serif;
-      font-size: 5.5px;
-      font-weight: 500;
-      letter-spacing: 2.4px;
-      text-transform: uppercase;
-      fill: #8E8E93;
-      transition: fill 0.35s ease;
-    }
-    .group:hover #abhikhya-interactive-logo .logo-sub,
-    #btn-logo:hover #abhikhya-interactive-logo .logo-sub {
-      fill: #444444;
-    }
-    .dark #abhikhya-interactive-logo .logo-title,
-    [data-theme="dark"] #abhikhya-interactive-logo .logo-title {
-      fill: #FFFFFF !important;
-    }
-    .dark #abhikhya-interactive-logo .logo-emblem path,
-    .dark #abhikhya-interactive-logo .logo-emblem rect,
-    .dark #abhikhya-interactive-logo .logo-emblem circle {
-      fill: #FFFFFF !important;
-    }
-  </style>
-  <g class="logo-emblem">
-    <path d="M10 2.5L2 21.5H5.8L7.8 16.5H12.2L14.2 21.5H18L10 2.5ZM10 8.8L11.4 13.5H8.6L10 8.8Z" fill="#1A1A1A" />
-    <rect x="0.5" y="14" width="19" height="1.6" rx="0.8" fill="#1A1A1A" />
-    <circle cx="10" cy="2.5" r="1.2" fill="#1A1A1A" />
-  </g>
-  <g class="logo-text">
-    <text x="25" y="15" class="logo-title">ABHIKHYA</text>
-    <text x="25.5" y="21.5" class="logo-sub">DESIGN STUDIO</text>
-  </g>
-</svg></a>
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a aria-label="Abhikhya Design Studio Logo" class="site-logo-link group" href="/">
+                <svg id="abhikhya-interactive-logo" viewBox="0 0 152 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-5 sm:h-6 w-auto transition-all duration-300 ease-out group-hover:scale-[1.02]" style="display:block;height:20px;max-height:24px;width:auto;">
+                    <style>
+                        #abhikhya-interactive-logo .logo-emblem {
+                            transform-origin: 10px 12px;
+                            transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+                        }
+                        .group:hover #abhikhya-interactive-logo .logo-emblem {
+                            transform: scale(1.1) rotate(6deg);
+                        }
+                        #abhikhya-interactive-logo .logo-title {
+                            font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
+                            font-size: 13.5px;
+                            font-weight: 600;
+                            letter-spacing: 2.2px;
+                            fill: #1A1A1A;
+                            transition: letter-spacing 0.35s ease, fill 0.35s ease;
+                        }
+                        .group:hover #abhikhya-interactive-logo .logo-title {
+                            letter-spacing: 2.8px;
+                            fill: #000000;
+                        }
+                        #abhikhya-interactive-logo .logo-sub {
+                            font-family: 'BB Manual Mono', monospace, sans-serif;
+                            font-size: 5.5px;
+                            font-weight: 500;
+                            letter-spacing: 2.4px;
+                            text-transform: uppercase;
+                            fill: #8E8E93;
+                            transition: fill 0.35s ease;
+                        }
+                        .group:hover #abhikhya-interactive-logo .logo-sub {
+                            fill: #444444;
+                        }
+                    </style>
+                    <g class="logo-emblem">
+                        <path d="M10 2.5L2 21.5H5.8L7.8 16.5H12.2L14.2 21.5H18L10 2.5ZM10 8.8L11.4 13.5H8.6L10 8.8Z" fill="#1A1A1A" />
+                        <rect x="0.5" y="14" width="19" height="1.6" rx="0.8" fill="#1A1A1A" />
+                        <circle cx="10" cy="2.5" r="1.2" fill="#1A1A1A" />
+                    </g>
+                    <g class="logo-text">
+                        <text x="25" y="15" class="logo-title">ABHIKHYA</text>
+                        <text x="25.5" y="21.5" class="logo-sub">DESIGN STUDIO</text>
+                    </g>
+                </svg>
+            </a>
 
-            <nav class="flex gap-2 sm:gap-3 items-center">
-                <a href="/" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-gray-700 bg-[#F0F0F0] bg-blur-button hover:bg-[#CFCFCF]">
-                    <span>Home</span>
-                </a>
-                <a href="/projects" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-white bg-black bg-blur-button">
-                    <span>Projects</span>
-                </a>
-                <a href="/about" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-gray-700 bg-[#F0F0F0] bg-blur-button hover:bg-[#CFCFCF]">
-                    <span>About Us</span>
-                </a>
-                <a href="/contact" class="group flex justify-center items-center text-center transition-all duration-300 uppercase text-[12px] rounded-[8px] px-4 py-2.5 font-manual text-gray-700 bg-[#F0F0F0] bg-blur-button hover:bg-[#CFCFCF]">
-                    <span>Contact</span>
-                </a>
+            <nav class="site-nav">
+                <a href="/" class="site-nav-pill">Home</a>
+                <a href="/projects" class="site-nav-pill is-active">Projects</a>
+                <a href="/about" class="site-nav-pill">About<span class="about-us-suffix"> Us</span></a>
+                <a href="/contact" class="site-nav-pill">Contact</a>
             </nav>
         </div>
     </header>
