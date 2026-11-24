@@ -1,4 +1,4 @@
-// Interactive Project Modal & Details System for Abhikhya Design Studio
+// Interactive Project Modal & Details System for Design Vatika Architects, Pilibhit
 (function () {
   'use strict';
 
@@ -22,7 +22,7 @@
     }
     #abhikhya-project-modal.is-open {
       display: flex !important;
-      animation: abhikyaFadeIn 0.25s ease-out forwards;
+      animation: vatikaFadeIn 0.25s ease-out forwards;
     }
     #project-modal-backdrop {
       position: absolute;
@@ -43,13 +43,13 @@
       display: flex;
       flex-direction: column;
       overflow: hidden;
-      animation: abhikyaScaleIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation: vatikaScaleIn 0.25s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     }
-    @keyframes abhikyaFadeIn {
+    @keyframes vatikaFadeIn {
       from { opacity: 0; }
       to { opacity: 1; }
     }
-    @keyframes abhikyaScaleIn {
+    @keyframes vatikaScaleIn {
       from { opacity: 0; transform: scale(0.95) translateY(10px); }
       to { opacity: 1; transform: scale(1) translateY(0); }
     }
@@ -495,6 +495,6 @@
     init();
   }
 
-  window.openAbhikhyaProject = openProjectModal;
-  window.closeAbhikhyaProject = closeProjectModal;
+  window.openDesign VatikaProject = openProjectModal;
+  window.closeDesign VatikaProject = closeProjectModal;
 })();

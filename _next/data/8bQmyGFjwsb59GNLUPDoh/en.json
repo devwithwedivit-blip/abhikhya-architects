@@ -3,9 +3,9 @@
     "aboutSection": {
       "cta": {
         "href": "#about",
-        "label": "About Abhikhya"
+        "label": "About Design Vatika"
       },
-      "description": "Abhikhya Design Studio is a multidisciplinary design firm offering premium architecture, interior design, and turnkey solutions across India. From sketch to final reveal, every corner reflects you, mixing practical, smart design with wow moments.",
+      "description": "Design Vatika Architects is a multidisciplinary design firm offering premium architecture, interior design, and turnkey solutions across India. From sketch to final reveal, every corner reflects you, mixing practical, smart design with wow moments.",
       "image": {
         "asset": {
           "metadata": {
@@ -727,11 +727,11 @@
           },
           "details": [
             {
-              "_key": "abhikya_turnkey_1",
+              "_key": "vatika_turnkey_1",
               "_type": "block",
               "children": [
                 {
-                  "_key": "abhikya_turnkey_span_1",
+                  "_key": "vatika_turnkey_span_1",
                   "_type": "span",
                   "marks": [],
                   "text": "From blueprint to reality\u2014seamlessly executed under one roof. A complete, end-to-end solution from concept to on-site execution. We handle everything so you don't have to."
@@ -770,9 +770,9 @@
       }
     ],
     "metadata": {
-      "metaTitle": "Abhikhya Design Studio | Best Architects & Interior Designer in Greater Noida",
-      "metaDescription": "Abhikhya Design Studio is a multidisciplinary design firm offering premium architecture, interior design, and turnkey solutions across India. Best Interior Designers in Greater Noida & Noida.",
-      "metaKeyWords": "Abhikhya Design Studio, Architecture, Interior Design, Turnkey Solutions, Residential Interior, Office Design, Greater Noida, Noida, Delhi NCR, Harsh Gujral Residence",
+      "metaTitle": "Design Vatika Architects | Best Architects & Interior Designer in Greater Noida",
+      "metaDescription": "Design Vatika Architects is a multidisciplinary design firm offering premium architecture, interior design, and turnkey solutions across India. Best Interior Designers in Greater Noida & Noida.",
+      "metaKeyWords": "Design Vatika Architects, Architecture, Interior Design, Turnkey Solutions, Residential Interior, Office Design, Greater Noida, Noida, Delhi NCR, Harsh Gujral Residence",
       "thumbnail": {
         "asset": {
           "metadata": {
@@ -788,7 +788,7 @@
       }
     },
     "servicesSection": {
-      "authorName": "Abhikhya Design Studio",
+      "authorName": "Design Vatika Architects",
       "authorRole": "Architecture & Interior Design",
       "quote": "We commit to crafting high-quality, contextually harmonious structures that seamlessly transition between indoor and outdoor spaces, prioritizing utility and meaning.",
       "services": {
@@ -917,12 +917,12 @@
               "subtitle": "Our Philosophy"
             },
             "aboutDetails": {
-              "title": "About Abhikhya Design Studio",
+              "title": "About Design Vatika Architects",
               "subtitle": "Our Story & Vision"
             },
             "newsletter_error": "There was an error signing up to the newsletter. Please try again.",
             "newsletter_success": "Thank you for signing up for our newsletter!",
-            "newsletter_terms": "By signing up, you consent to receive design updates from Abhikhya Design Studio and agree to our Privacy Policy.",
+            "newsletter_terms": "By signing up, you consent to receive design updates from Design Vatika Architects and agree to our Privacy Policy.",
             "newsletter_signup": "Sign Up",
             "read_more": "Read More",
             "read_less": "Read Less",

@@ -1,6 +1,6 @@
-# Abhikhya Architects & Interior Design Studio
+# Design Vatika Architects, Pilibhit
 
-Official website for **Abhikhya Design Studio**, a multidisciplinary architecture and interior design firm based in Greater Noida & Delhi NCR, India.
+Official website for **Design Vatika Architects, Pilibhit**, a multidisciplinary architecture and interior design firm based in Greater Noida & Delhi NCR, India.
 
 ## Features
 - **Editorial Architectural Layout**: Minimalist aesthetics, typography, fluid animations, and responsive layouts.
@@ -33,4 +33,4 @@ The website will start at:
 - **Direct**: [http://127.0.0.1:3001](http://127.0.0.1:3001)
 
 ## License
-All architectural designs, imagery, and content © Abhikhya Design Studio. All rights reserved.
+All architectural designs, imagery, and content © Design Vatika Architects, Pilibhit. All rights reserved.

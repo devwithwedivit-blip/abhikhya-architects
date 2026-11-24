@@ -47,7 +47,7 @@
             "url": "/images/projects/project-1.webp"
           }
         },
-        "summary": "Abhikhya Design Studio delivers the bespoke turnkey residential retreat for renowned comedian Harsh Gujral, embodying warm minimalism, tailored acoustics, and curated luxury."
+        "summary": "Design Vatika Architects delivers the bespoke turnkey residential retreat for renowned comedian Harsh Gujral, embodying warm minimalism, tailored acoustics, and curated luxury."
       },
       {
         "_id": "art-2",
@@ -83,7 +83,7 @@
             "url": "/images/projects/project-7.webp"
           }
         },
-        "summary": "Founding architects of Abhikhya Design Studio honored for visionary leadership and excellence in bespoke architectural design."
+        "summary": "Founding architects of Design Vatika Architects honored for visionary leadership and excellence in bespoke architectural design."
       },
       {
         "_id": "art-4",
@@ -154,12 +154,12 @@
               "subtitle": "Our Philosophy"
             },
             "aboutDetails": {
-              "title": "About Abhikhya Design Studio",
+              "title": "About Design Vatika Architects",
               "subtitle": "Our Story & Vision"
             },
             "newsletter_error": "There was an error signing up to the newsletter. Please try again.",
             "newsletter_success": "Thank you for signing up for our newsletter!",
-            "newsletter_terms": "By signing up, you consent to receive design updates from Abhikhya Design Studio and agree to our Privacy Policy.",
+            "newsletter_terms": "By signing up, you consent to receive design updates from Design Vatika Architects and agree to our Privacy Policy.",
             "newsletter_signup": "Sign Up",
             "read_more": "Read More",
             "read_less": "Read Less",
